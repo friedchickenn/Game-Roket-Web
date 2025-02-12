@@ -1,0 +1,13 @@
+Nama: Erika Yanti
+Nim: 105841104322
+Kelas: 5B
+
+Penjelasan Tugas:
+
+Game ini adalah permainan sederhana di mana pemain mengendalikan sebuah roket untuk mengumpulkan bintang sambil menghindari asteroid. Interaksi utama terjadi antara pemain, bintang, dan asteroid. Ketika pemain menyentuh bintang, skor bertambah, dan bintang baru muncul di posisi acak. Namun, jika pemain bertabrakan dengan asteroid, permainan akan berakhir.
+
+Pewarisan digunakan untuk mempermudah struktur kode. Kelas `Player`, `Star`, dan `Obstacle` mewarisi kelas induk `GameObject`, yang menyediakan properti umum seperti posisi, ukuran, dan metode untuk menggambar objek pada canvas. Dengan pewarisan ini, setiap kelas turunan dapat menambahkan fitur khusus, seperti kemampuan bergerak untuk pemain dan asteroid.
+
+Getter dan setter digunakan untuk mengelola posisi objek dalam game. Properti `position` membantu membaca atau mengatur posisi objek dengan cara yang lebih terorganisir. Misalnya, posisi pemain dapat diperbarui langsung melalui mouse atau keyboard menggunakan setter `position`.
+
+Secara keseluruhan, game ini memanfaatkan interaksi antar-objek, pewarisan, dan getter-setter untuk menciptakan alur permainan yang dinamis dan menjaga kode tetap terstruktur.
